@@ -5,5 +5,6 @@ Progress of the challenging [CUDA 100 Days Learning Journey](https://github.com/
 Mentor: https://github.com/hkproj/
 
 
-+ Day 1: Implement a simple CUDA kernel to add two vectors
++ Day 1: Add two vectors
++ Day 2: Add two matrices
 

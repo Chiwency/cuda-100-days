@@ -7,4 +7,9 @@ Mentor: https://github.com/hkproj/
 
 + Day 1: Add two vectors
 + Day 2: Add two matrices
+> Grid and Block dimensions are determined by the dimensions of matrix, usually pad the matrix dimensions multiple of 16 or 32 for better memory access pattern.
+More details refer to PMPP p57.
+![Day 2: Add two matrices](images/matrix-with-blockDim.png)
++ Day 3: Matrix-Vector multiplication. 
+
 

@@ -14,7 +14,7 @@ int main()
     //         2.0 * prop.memoryClockRate * (prop.memoryBusWidth / 8) / 1.0e6);
     // printf("  Total global memory: %f GB\n", (float)prop.totalGlobalMem / (1024 * 1024 * 1024));
     printf("  Shared memory per block: %.1f KB\n", (float)prop.sharedMemPerBlock / 1024);
-    // printf("  Registers per block: %d\n", prop.regsPerBlock);
+    printf("  Registers per SM: %d\n", prop.regsPerMultiprocessor);
     //printf("  Warp size: %d\n", prop.warpSize);
     printf("  Max threads per block: %d\n", prop.maxThreadsPerBlock);
     printf("  Max threads per multiprocessor: %d\n", prop.maxThreadsPerMultiProcessor);

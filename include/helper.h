@@ -35,6 +35,16 @@ void printMatrix(int *matrix, int rows, int cols, const char *name) {
     }
 }
 
+void printMatrix(float *matrix, int rows, int cols, const char *name) {
+    printf("Matrix %s:\n", name);
+    for (int i = 0; i < rows; i++) {
+        for (int j = 0; j < cols; j++) {
+            printf("%.2f ", matrix[i * cols + j]);
+        }
+        printf("\n");
+    }
+}
+
 void printVector(int *vector, int N, const char *name) {
     printf("Vector %s:\n", name);
     for (int i = 0; i < N; i++) {

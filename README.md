@@ -15,3 +15,5 @@ More details refer to PMPP p57.
 + Day 4: Calculate the sum of a vector by tree-based reduction.
 > Refer to PMPP chapter 10 Reduction. ![tree-based-reduction](images/tree-based-reduction.png)
         Tree-Based-Reduction
++ Day 5: Layer Normalization implementation.
++ Day 6: Matrix-Transpose.
